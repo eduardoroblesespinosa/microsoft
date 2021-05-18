@@ -5,6 +5,9 @@
 <script type="text/javascript" src="https://github.com/eduardoroblesespinosa/microsoft/blob/gh-pages/stratus-forms-data-SPServices-1.55.js"></script>
 
 <div id="SFForm">
+	Title Field: <input type="text" listFieldName="Title" id="title" />
+<br>
+<input type="button" onclick="SubmitForm();" value="Add/Update Entry" />
 </div>
 
 <script type="text/javascript">
